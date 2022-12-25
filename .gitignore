@@ -1,0 +1,44 @@
+# BLOBs or files which don't need version control
+*.bat
+*.mp4
+*.wav
+*.csv
+*.zip
+*.7z
+*.pdf
+*.png
+
+# folders which don't need version control
+tmp/
+
+# virtual environment
+.venv/
+Pipfile.lock
+
+# temporary settings folders
+.idea/ 
+
+# temporary merge conflict files 
+*.orig
+
+# temporary doc filses
+~*.docx
+~*.tmp
+
+# temporary python package files
+__*__/
+
+# temporary IPYNB files
+.ipynb_checkpoints/
+*.ipynb.swp
+
+# git config files
+.gitattributes
+difftool
+difftool-nbdime
+difftool-pandoc
+mergetool
+
+# exceptions (uncomment bellow if needed)
+# !00. Run Git.bat
+# !00. Run Jupyter Notebook.bat
